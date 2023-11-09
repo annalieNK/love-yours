@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct PhotoCollectionApp: App {
+    @StateObject var viewModel = ViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
+                .environmentObject(viewModel)
         }
     }
 }
