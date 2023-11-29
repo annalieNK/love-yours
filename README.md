@@ -9,8 +9,8 @@ The below figures show a preview of the app.
 
 Splash View | Enter View | Content View | Add View    
 :----------:|:----------:|:------------:|:--------
-![](./Screenshots/SplashView.PNG) | ![](./Screenshots/EnterView.PNG) | ![](./Screenshots/DeleteItemAlert.PNG) | ![](./Screenshots/AddView.PNG) 
+![](./Screenshots/SplashView.PNG) | ![](./Screenshots/EnterView.PNG) | ![](./Screenshots/ContentView.PNG) | ![](./Screenshots/AddView.PNG) 
 
 Detail View | Edit View | Delete Alert | Select Button Delete
 :----------:|:----------:|:-----------:|:--------------------
-![](./Screenshots/DetailView.PNG) | ![](./Screenshots/EditView.PNG) | ![](./Screenshots/ContentView.PNG) | ![](./Screenshots/SelectButtonDelete.PNG)
+![](./Screenshots/DetailView.PNG) | ![](./Screenshots/EditView.PNG) | ![](./Screenshots/DeleteItemAlert.PNG) | ![](./Screenshots/SelectButtonDelete.PNG)
