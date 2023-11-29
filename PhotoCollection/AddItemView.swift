@@ -100,7 +100,7 @@ struct AddItemView: View {
             .toolbar {
                 ToolbarItem(placement: .automatic) {
                     Button("Save") {
-                        viewModel.addNewItem(inputUIImage: savingUIImage, description: description, locationName: locationName, tag: tag, isSelected: isSelected, imageName: imageName, imageURL: imageURL!)
+                        viewModel.addNewItem(inputUIImage: savingUIImage, description: description, date: date, locationName: locationName, tag: tag, isSelected: isSelected, imageName: imageName, imageURL: imageURL!)
                         dismiss()
                     }
                     //.disabled(inputUIImage == nil)

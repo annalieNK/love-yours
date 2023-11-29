@@ -45,6 +45,12 @@ struct EditItemView: View {
                         }
                 }
             }
+            .gesture(
+                TapGesture()
+                    .onEnded {
+                        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+                    }
+            )
             .navigationBarItems(trailing: Button("Save") {
                 viewModel.updateItem(item: item, withName: editedDate, locationName: editedLocationName, description: editedDescription)
                 dismiss()

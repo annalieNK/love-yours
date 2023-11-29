@@ -69,9 +69,9 @@ class ViewModel: ObservableObject {
         }
     }
     
-    func addNewItem(inputUIImage: UIImage?, description: String, locationName: String, tag: String, isSelected: Bool, imageName: String, imageURL: URL) {
+    func addNewItem(inputUIImage: UIImage?, description: String, date: Date, locationName: String, tag: String, isSelected: Bool, imageName: String, imageURL: URL) {
         guard let imageData = inputUIImage?.jpegData(compressionQuality: 0.8) else { return }
-        let newItem = Item(imageData: imageData, description: description, date: Date.now, locationName: locationName, tag: tag, isSelected: isSelected, imageName: imageName, imageURL: imageURL)
+        let newItem = Item(imageData: imageData, description: description, date: date, locationName: locationName, tag: tag, isSelected: isSelected, imageName: imageName, imageURL: imageURL)
         self.items.append(newItem)
         saveItem()
     }
